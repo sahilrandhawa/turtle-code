@@ -4,7 +4,7 @@ s = turtle.Screen(): This line creates a Screen object named s. The screen is th
 s.bgcolor('black'): Sets the background color of the screen to black, creating a black canvas for our design.
 t.width(3): Sets the pen width to 3 pixels. This determines the thickness of the lines drawn by the turtle.
 t.speed(25): Sets the drawing speed of the turtle. The speed of 25 means that the turtle will draw relatively quickly.
-col = ('magenta', 'yellow', 'green'): Defines a tuple named col that contains three colors: magenta, yellow, and green. These colors will be used for the lines in the design.
+col = ('orange', 'white', 'green'): Defines a tuple named col that contains three colors: magenta, yellow, and green. These colors will be used for the lines in the design.
 for i in range(500):: Initiates a loop that will run 500 times to draw the design.
 t.pencolor(col[i % 3]): Sets the pen color based on the current iteration. The % 3 ensures that the colors in the col tuple are used in a cyclic manner as the loop iterates.
 t.forward(i * 4): Moves the turtle forward by a distance that increases with each iteration (i * 4). This creates the effect of lines getting longer as the turtle progresses.
